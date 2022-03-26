@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug AppIconGen",
+            "program": "${workspaceFolder:AppIconGen}/.build/debug/AppIconGen",
+            "args": [],
+            "cwd": "${workspaceFolder:AppIconGen}",
+            "preLaunchTask": "swift: Build Debug AppIconGen"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release AppIconGen",
+            "program": "${workspaceFolder:AppIconGen}/.build/release/AppIconGen",
+            "args": [],
+            "cwd": "${workspaceFolder:AppIconGen}",
+            "preLaunchTask": "swift: Build Release AppIconGen"
+        }
+    ]
+}
