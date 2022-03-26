@@ -4,18 +4,18 @@
             "type": "lldb",
             "request": "launch",
             "name": "Debug AppIconGen",
-            "program": "${workspaceFolder:AppIconGen}/.build/debug/AppIconGen",
+            "program": "${workspaceFolder:AppIconGenCLI}/.build/debug/AppIconGen",
             "args": [],
-            "cwd": "${workspaceFolder:AppIconGen}",
+            "cwd": "${workspaceFolder:AppIconGenCLI}",
             "preLaunchTask": "swift: Build Debug AppIconGen"
         },
         {
             "type": "lldb",
             "request": "launch",
             "name": "Release AppIconGen",
-            "program": "${workspaceFolder:AppIconGen}/.build/release/AppIconGen",
+            "program": "${workspaceFolder:AppIconGenCLI}/.build/release/AppIconGen",
             "args": [],
-            "cwd": "${workspaceFolder:AppIconGen}",
+            "cwd": "${workspaceFolder:AppIconGenCLI}",
             "preLaunchTask": "swift: Build Release AppIconGen"
         }
     ]
